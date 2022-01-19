@@ -1,6 +1,6 @@
 # vmvare esxi 7.0u2 装macOs和android文档
 
-## Mac Os系统安装
+## MacOs系统安装
 
 **VMware esxi不支持macOS和Mac OS X，需要解锁**
 
