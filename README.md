@@ -4,34 +4,37 @@
 
 **VMware esxi不支持macOS和Mac OS X，需要解锁**
 
-- 解锁工具
-  - [esxi-unlocker-master.zip](esxi-unlocker-master.zip)
+- 解锁
+  - 下载工具[esxi-unlocker-master.zip](esxi-unlocker-master.zip)
   - vmvare esxi 开启ssh
-  - scp 到 vmvare esxi中
+  - scp esxi-unlocker-master.zip到 vmvare esxi 中
+     - scp root@ip:/path
   - ssh 登录到vmvare esxi中
-  - 执行sh esxi-install.sh
-  - reboot
+     - ssh工具登录
+     - 执行sh esxi-install.sh
+     - reboot
 
-- macOS ISO镜像 懒人版即可
+- 安装
+  - 下载macOS ISO镜像 懒人版即可
   - boot启动
   - 磁盘工具 抺掉磁盘 相当于分区
-  - 安装镜像
+  - 根据界面操作
   - ...
 
 - 屏幕共享
   - 开启 设置密码
   - windows利用vnc软件登录[http://www.tightvnc.com/download.php](http://www.tightvnc.com/download.php)
 
+
 ## Android 系统
 
-- android ISO镜像
+- 安装
   - boot 启动
   - 分区
-  - 安装镜像
+  - 根据界面操作
   - ...
 
-
-- 开启ui界面启动
+- 启动方式修改
     - 进入控制台执行
         - mkdir /mnt/sda
         - mount /dev/block/sda1 /mnt/sda
