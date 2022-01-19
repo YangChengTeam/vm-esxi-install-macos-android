@@ -14,10 +14,11 @@
      - 执行sh esxi-install.sh
      - reboot
 
-- macOS ISO镜像 懒人版即可
+- 安装
+  - 下载macOS ISO镜像 懒人版即可
   - boot启动
   - 磁盘工具 抺掉磁盘 相当于分区
-  - 安装镜像
+  - 根据界面操作
   - ...
 
 - 屏幕共享
@@ -27,14 +28,13 @@
 
 ## Android 系统
 
-- android ISO镜像
+- 安装
   - boot 启动
   - 分区
-  - 安装镜像
+  - 根据界面操作
   - ...
 
-
-- 开启ui界面启动
+- 启动方式修改
     - 进入控制台执行
         - mkdir /mnt/sda
         - mount /dev/block/sda1 /mnt/sda
