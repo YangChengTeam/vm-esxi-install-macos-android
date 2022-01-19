@@ -26,7 +26,7 @@
   - windows利用vnc软件登录[http://www.tightvnc.com/download.php](http://www.tightvnc.com/download.php)
 
 
-## Android 系统
+## Android 系统安装
 
 - 安装
   - boot 启动
