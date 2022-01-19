@@ -4,8 +4,8 @@
 
 **VMware esxi不支持macOS和Mac OS X，需要解锁**
 
-- 解锁工具
-  - [esxi-unlocker-master.zip](esxi-unlocker-master.zip)
+- 解锁
+  - 下载工具[esxi-unlocker-master.zip](esxi-unlocker-master.zip)
   - vmvare esxi 开启ssh
   - scp esxi-unlocker-master.zip到 vmvare esxi 中
      - scp root@ip:/path
@@ -23,7 +23,7 @@
 - 屏幕共享
   - 开启 设置密码
   - windows利用vnc软件登录[http://www.tightvnc.com/download.php](http://www.tightvnc.com/download.php)
-  
+
 
 ## Android 系统
 
