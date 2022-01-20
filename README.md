@@ -7,11 +7,12 @@
 - 解锁
   - 下载工具[esxi-unlocker-master.zip](esxi-unlocker-master.zip)
   - vmvare esxi 开启ssh
-  - scp esxi-unlocker-master.zip到 vmvare esxi 中
-     - scp root@ip:/path
-  - ssh 登录到vmvare esxi中
+  - scp 
+     - scp esxi-unlocker-master.zip root@ip:/path
+  - ssh 
      - ssh工具登录
-     - 执行sh esxi-install.sh
+     - unzip esxi-unlocker-master.zip
+     - sh esxi-install.sh
      - reboot
 
 - 安装
