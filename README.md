@@ -21,14 +21,15 @@
   - 根据界面操作
   - ...
 
-- 屏幕共享
+- 屏幕控制
   - 开启 设置密码
   - windows利用vnc软件登录[http://www.tightvnc.com/download.php](http://www.tightvnc.com/download.php)
-
+  - 或者[https://www.realvnc.com/en/connect/download/viewer/](https://www.realvnc.com/en/connect/download/viewer/)
 
 ## Android 系统安装
 
 - 安装
+  - 下载android镜像 
   - boot 启动
   - 分区
   - 根据界面操作
@@ -41,13 +42,8 @@
         - vi /mnt/sda/grub/menu.lst
             - quiet -> nomodeset xforcevesa
 
-- 调试
-   - 连接
-        - adb connect ip:5555
-   - 操作
-        - 利用adb进行一系操作
-        - adb install 安装apk或xapk
-        - adb push 上传文件到android
-        - adb pull 拉取文件到本地
-
+- 屏幕控制
+   - scrcpy
+     - [https://github.com/Genymobile/scrcpy/releases](https://github.com/Genymobile/scrcpy/releases)
+     - adb connect ip:5555
 
