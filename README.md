@@ -46,4 +46,5 @@
    - scrcpy
      - [https://github.com/Genymobile/scrcpy/releases](https://github.com/Genymobile/scrcpy/releases)
      - adb connect ip:5555
+     - 打开scrcpy.exe
 
