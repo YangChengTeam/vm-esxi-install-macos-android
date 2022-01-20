@@ -46,6 +46,7 @@
 - 屏幕控制
    - scrcpy
      - [https://github.com/Genymobile/scrcpy/releases](https://github.com/Genymobile/scrcpy/releases)
+     - 打开cmd
      - adb connect ip:5555
-     - 打开scrcpy.exe
+     - scrcpy.exe -s ip:5555
 
