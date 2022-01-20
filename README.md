@@ -23,7 +23,7 @@
   - ...
 
 - 屏幕控制
-  - 开启 设置密码
+  - macOS开启屏幕共享 设置密码
   - windows利用vnc软件登录[http://www.tightvnc.com/download.php](http://www.tightvnc.com/download.php)
   - 或者[https://www.realvnc.com/en/connect/download/viewer/](https://www.realvnc.com/en/connect/download/viewer/)
 
